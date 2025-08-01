@@ -1,0 +1,49 @@
+//==========================================================================
+// CONFIGURATION & HELPERS
+//==========================================================================
+
+// --- Variables ---
+:root {
+  // Colors
+  --c-primary: #9bcdd2;
+  --c-primary-light: #9bcdd24c;
+  --c-secondary: #e8a0bf;
+  --c-background: #f7f6f2;
+  --c-surface: #ffffff;
+  --c-text-primary: #3c4048;
+  --c-text-secondary: #2d5d7f;
+  --c-text-muted: #3c404880;
+  --c-border: #2d5d7f0a;
+  --c-shadow-light: #2d5d7f0f;
+  --c-shadow-heavy: #2d5d7f14;
+  --c-shadow-accent: #f4d1604c;
+
+  // Fonts
+  --f-primary: "Montserrat", Helvetica, sans-serif;
+  --f-secondary: "Inter", Helvetica, sans-serif;
+
+  // Sizing & Spacing
+  --border-radius-md: 16px;
+  --border-radius-lg: 24px;
+  --app-width: 393px;
+  --app-height: 852px;
+}
+
+// --- Base & Typography ---
+body {
+  margin: 0;
+  font-family: var(--f-secondary);
+  color: var(--c-text-primary);
+  background-color: #e0e0e0;
+  justify-content: center;
+  // A neutral bg for the outside viewport
+}
+
+h1,
+h2,
+h3,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
