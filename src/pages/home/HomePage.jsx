@@ -11,6 +11,7 @@ import SentimentSatisfiedOutlinedIcon from '@mui/icons-material/SentimentSatisfi
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import AddIcon from '@mui/icons-material/Add';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
 /**
  * @component HomePage
@@ -48,7 +49,7 @@ const HomePage = () => {
               </div>
               <span className="daily-reflection-card__placeholder">Start writing...</span>
               <div className="icon-wrapper icon-wrapper--primary">
-                <CameraAltOutlinedIcon />
+                <KeyboardArrowRightIcon />
               </div>
             </div>
           </section>
